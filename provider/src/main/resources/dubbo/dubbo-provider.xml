@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://code.alibabatech.com/schema/dubbo http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+    <dubbo:application name="provider"/>
+    <dubbo:registry address="zookeeper://zk1.2dfire-daily.com:2181?backup=zk2.2dfire-daily.com,zk3.2dfire-daily.com:2181" protocol="zookeeper" check="false"/>
+    <dubbo:consumer check="false"/>
+    <dubbo:protocol id="dubbo" name="dubbo" port="-1" threads="200"/>
+    <dubbo:service interface="com.dfire.service.DemoService" ref="demoService"/>
+    <bean id="demoService" class="com.dfire.service.impl.DemoServiceImpl"/>
+</beans>

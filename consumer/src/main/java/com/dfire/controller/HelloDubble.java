@@ -19,7 +19,17 @@ public class HelloDubble {
     @RequestMapping("dubbo")
     @ResponseBody
     public String sayHello() {
-        String s = demoService.sayHello("小苏打Dubbo学习之路");
+        String s = demoService.sayHello("Dubbo学习之路");
         return s;
+    }
+
+    @RequestMapping("allStudents")
+    @ResponseBody
+    public Object getAllStudents() {
+        Long start = System.currentTimeMillis();
+        System.out.println(demoService.getAllStudents().size());
+        Long end = System.currentTimeMillis();
+        System.out.println("耗时：" + (end - start));
+        return "success";
     }
 }

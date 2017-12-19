@@ -2,25 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="88474688-5c5b-4d24-b830-9af6fcb0cda1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_16_18.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restapi/pom.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restapi/restapi.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Person.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/provider/src/main/java/com/dfire/service/DemoService.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/pom.xml" afterPath="$PROJECT_DIR$/consumer/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dfire/controller/HelloDubble.java" afterPath="$PROJECT_DIR$/consumer/src/main/java/com/dfire/controller/HelloDubble.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/consumer/src/main/resources/dubbo/dubbo-consumer.xml" afterPath="$PROJECT_DIR$/consumer/src/main/resources/dubbo/dubbo-consumer.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provider/pom.xml" afterPath="$PROJECT_DIR$/provider/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provider/src/main/java/com/dfire/service/impl/DemoServiceImpl.java" afterPath="$PROJECT_DIR$/provider/src/main/java/com/dfire/service/impl/DemoServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/provider/src/main/resources/dubbo/dubbo-provider.xml" afterPath="$PROJECT_DIR$/provider/src/main/resources/dubbo/dubbo-provider.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/consumer/src/main/java/com/dfire/service/DemoService.java" afterPath="$PROJECT_DIR$/restapi/src/main/java/com/dfire/service/DemoService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java" afterPath="$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/service/target/" />
@@ -79,21 +62,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Student.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Student.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+            <state relative-caret-position="418">
+              <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelloDubble.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HelloDubble.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/dfire/controller/HelloDubble.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+            <state relative-caret-position="465">
+              <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,7 +197,6 @@
         <option value="D:/Program Files (x86)/homework/apache-maven-3.5.0/localResponsity/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/com/caucho/hessian/io/ThrowableSerializer.java" />
         <option value="D:/Program Files (x86)/homework/apache-maven-3.5.0/localResponsity/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/com/caucho/hessian/io/AbstractSerializer.java" />
         <option value="D:/Program Files (x86)/homework/apache-maven-3.5.0/localResponsity/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/com/caucho/hessian/io/Serializer.java" />
-        <option value="$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java" />
         <option value="D:/Program Files (x86)/homework/apache-maven-3.5.0/localResponsity/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/com/caucho/hessian/io/Hessian2Input.java" />
         <option value="D:/Program Files (x86)/homework/apache-maven-3.5.0/localResponsity/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/com/caucho/hessian/io/Deserializer.java" />
         <option value="D:/Program Files (x86)/homework/apache-maven-3.5.0/localResponsity/com/alibaba/dubbo/2.5.7/dubbo-2.5.7-sources.jar!/com/alibaba/com/caucho/hessian/io/Hessian2Output.java" />
@@ -223,6 +205,7 @@
         <option value="$PROJECT_DIR$/provider/src/main/resources/dubbo/dubbo-provider.xml" />
         <option value="$PROJECT_DIR$/consumer/src/main/resources/dubbo/dubbo-consumer.xml" />
         <option value="$PROJECT_DIR$/consumer/src/main/java/com/dfire/controller/HelloDubble.java" />
+        <option value="$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java" />
       </list>
     </option>
   </component>
@@ -1251,12 +1234,12 @@
       <workItem from="1513243958313" duration="4198000" />
       <workItem from="1513303091667" duration="5363000" />
       <workItem from="1513598560427" duration="1781000" />
-      <workItem from="1513648199878" duration="11733000" />
+      <workItem from="1513648199878" duration="11865000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27361000" />
+    <option name="totallyTimeSpent" value="27493000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1608,25 +1591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/dfire/ConsumerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#463#464#0" expanded="true" />
-            <element signature="e#524#525#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/provider/src/main/java/com/dfire/service/impl/DemoServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="521">
@@ -1647,11 +1611,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/dfire/controller/HelloDubble.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="44" lean-forward="false" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
+        <state relative-caret-position="465">
+          <caret line="30" column="36" lean-forward="true" selection-start-line="30" selection-start-column="36" selection-end-line="30" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/consumer/src/main/java/com/dfire/ConsumerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding>
+            <element signature="e#463#464#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/restapi/src/main/java/com/dfire/vo/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="1" lean-forward="true" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>

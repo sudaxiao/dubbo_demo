@@ -9,17 +9,15 @@
         <module name="consumer" />
         <module name="provider" />
         <module name="restapi" />
+        <module name="zookeeper_demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer" target="1.7" />
-      <module name="domain" target="1.5" />
       <module name="dubbo_demo" target="1.5" />
       <module name="provider" target="1.7" />
       <module name="restapi" target="1.5" />
-      <module name="service" target="1.5" />
-      <module name="test" target="1.7" />
-      <module name="web" target="1.5" />
+      <module name="zookeeper_demo" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

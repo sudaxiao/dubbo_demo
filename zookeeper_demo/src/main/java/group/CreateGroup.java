@@ -1,4 +1,4 @@
-package com.dfire.service.impl;
+package group;
 
 import org.apache.zookeeper.*;
 
@@ -43,7 +43,7 @@ public class CreateGroup implements Watcher{
     public static void main(String [] args) throws IOException, InterruptedException, KeeperException {
         CreateGroup createGroup = new CreateGroup();
         createGroup.connect("118.89.150.75:2181");
-        createGroup.create("xiaosuda");
+        createGroup.create("xiaosuda1");
         createGroup.close();
     }
 }

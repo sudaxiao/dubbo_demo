@@ -1,2 +1,3 @@
-com\dfire\vo\Student.class
-com\dfire\service\DemoService.class
+com\dfire\domain\User.class
+com\dfire\vo\JsonResponse.class
+com\dfire\service\UserService.class

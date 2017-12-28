@@ -1,2 +1,3 @@
-D:\gitRepository\dubbo_demo\restapi\src\main\java\com\dfire\service\DemoService.java
-D:\gitRepository\dubbo_demo\restapi\src\main\java\com\dfire\vo\Student.java
+D:\gitRepository\dubbo_demo\restapi\src\main\java\com\dfire\domain\User.java
+D:\gitRepository\dubbo_demo\restapi\src\main\java\com\dfire\service\UserService.java
+D:\gitRepository\dubbo_demo\restapi\src\main\java\com\dfire\vo\JsonResponse.java

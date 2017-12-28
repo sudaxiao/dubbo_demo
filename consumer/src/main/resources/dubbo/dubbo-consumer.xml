@@ -8,5 +8,5 @@
     <!-- 连接注册中心配置 -->
     <dubbo:registry address="zookeeper://118.89.150.75:2181" protocol="zookeeper" check="false"/>
     <!-- 生成远程服务代理，可以和本地bean一样使用demoService -->
-    <dubbo:reference id="demoService" interface="com.dfire.service.DemoService"/>
+    <dubbo:reference id="userService" interface="com.dfire.service.UserService"/>
 </beans>

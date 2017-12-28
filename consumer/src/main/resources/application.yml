@@ -1,3 +1,18 @@
 server:
   port: 8080
 
+spring:
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .html
+  thymeleaf:
+    mode: LEGACYHTML5
+  http:
+    encoding:
+      charset: UTF-8
+      force: true
+      enabled: true
+
+
+

@@ -5,7 +5,7 @@ server:
 druid:
   datasource:
     username: root  #数据库用户名
-    password: XIAOSUDA      #数据库密码
+    password: root      #数据库密码
     driverClassName: com.mysql.jdbc.Driver  #数据库驱动
     url: jdbc:mysql://localhost:3306/homework?useUnicode=true&amp;characterEncoding=UTF-8&useSSL=true  #数据库连接
     initialSize: 2    #初始化连接池数量

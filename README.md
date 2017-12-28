@@ -15,10 +15,14 @@
     
 启动之前要做的事情：
     首先执行provider模块中 resource下mysql/init.sql    生成基本的数据。
-    然后在provider模块中,resource下 application.yml  配置数据库的帐号和密码
+    然后在provider模块中,resource下 application.yml    配置数据库的帐号和密码
 启动顺序：
-    首先启动provider,然后启动consumer
-
+    由于我已经在我的腾讯云启动了provider提供者端，所以可以直接启动consumer ，然后在
+    地址栏输入localhost:8080  进行访问。
+    如果启动consumer时异常请先启动provider,然后启动consumer
+    
 本项目构成 ：springBoot+mybatis+dubbo+zookeeper+mysql+druid连接池
+
+
 
     
